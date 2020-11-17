@@ -1,0 +1,75 @@
+body {
+    background: url('https://www.wallpaperbetter.com/wallpaper/971/222/365/clouds-bw-sky-hd-1080P-wallpaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header{
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 400px;
+    text-align: center;
+} 
+.second{
+    display: flex;
+    flex-direction: row;
+    margin-top: -50px;
+    margin-left: 100px;
+}
+section img{
+    height: 400px;
+} 
+.scetion_inner-1{
+    margin-right: -100px;
+
+}
+.scetion_inner-2{
+    margin-top: 200px;
+    margin-right: -100px;
+}
+.scetion_inner-3{
+    margin-top: 100px;
+}
+.scetion_inner-4{
+    margin-right: -50px;
+}
+.scetion_inner-5{
+    margin-top: 150px;
+    margin-right: -50px;
+}
+.scetion_inner-6{
+  margin-right: -30px;
+}
+.scetion_inner-7{
+    margin-top: -80px;
+    margin-right: -50px;
+}
+
+img:hover{
+    opacity: 0;
+    transition: all 2s;
+    cursor: pointer;
+}
+
+footer{
+    display: flex;
+    margin-top: 50px;
+    max-width: 600px;
+    text-align: right;
+    margin-left: 60%;
+}
+h2{
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
